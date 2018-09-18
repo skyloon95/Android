@@ -1,5 +1,6 @@
 package net.skhu.e02views;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -23,7 +24,8 @@ public class MainActivity extends AppCompatActivity {
     @Override public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         if (id == R.id.action_signUp) {
-            Toast.makeText(this, "회원가입 메뉴 클릭", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(this, SignupActivity.class);
+            startActivity(intent);
             return true;
         } else if (id == R.id.action_memo) {
             Toast.makeText(this, "메모장 메뉴 클릭", Toast.LENGTH_SHORT).show();
