@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SignupActivity"></activity>
+        <activity android:name=".SignupActivity" android:label="@string/action_signUp" />
+        <activity android:name=".MemoActivity" android:label="@string/action_memo" />
     </application>
 
 </manifest>
