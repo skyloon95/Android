@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Nutee</string>
+    <string name="id">ID</string>
+    <string name="input_Id">아이디 입력</string>
+    <string name="nickname">닉네임</string>
+    <string name="input_Nickname">닉네임 입력</string>
+    <string name="Password">비밀번호</string>
+    <string name="input_PSW">비밀번호 입력</string>
+    <string name="passwordCheck">비밀번호 확인</string>
+    <string name="input_PSWCheck">비밀번호 재입력</string>
+    <string name="register">회원가입</string>
+</resources>
