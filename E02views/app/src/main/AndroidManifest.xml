@@ -22,7 +22,17 @@
         <activity
             android:name=".MemoActivity"
             android:label="@string/action_memo" />
-        <activity android:name=".ButtonsActivity"></activity>
+        <activity
+            android:name=".ButtonsActivity"
+            android:label="@string/action_buttons" />
+        <activity
+            android:name=".CheckboxesActivity"
+            android:label="@string/action_checkboxes" />
+        <activity android:name=".SpinnersActivity"
+            android:label="@string/action_spinners" />
+        <activity
+            android:name=".AlertsActivity"
+            android:label="Alerts" />
     </application>
 
 </manifest>

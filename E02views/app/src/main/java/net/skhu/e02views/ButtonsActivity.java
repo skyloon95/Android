@@ -29,7 +29,7 @@ public class ButtonsActivity extends AppCompatActivity {
                     case R.id.imageButton4: msg = "네 번째 이미지 버튼이 클릭 되었습니다."; break;
                     default: msg = "알 수 없는 버튼이 클릭 되었습니다."; break;
                 }
-                Toast.makeText(ButtonsActivity.this, msg, Toast.LENGTH_SHORT).show();
+                Toast.makeText(ButtonsActivity.this, msg, Toast.LENGTH_SHORT).show();   //  ButtonsActivity.this 가 바로 전달될 수 있는 이유 : listener 의 클래스가 ButtonsActivity 의 innerClass 이기 때문에
             }
         };
         Button button1 = (Button)findViewById(R.id.button1);
